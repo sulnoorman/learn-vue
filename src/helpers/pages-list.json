@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Home",
+        "path": "/"
+    },
+    {
+        "name": "Second Page",
+        "path":"/second-page"
+    },
+    {
+        "name": "Data List",
+        "path":"/data-list"
+    },
+    {
+        "name": "Add Todo",
+        "path":"/data-list/add-todo"
+    },
+    {
+        "name": "Detail Todo",
+        "path":"/data-list/:id"
+    },
+    {
+        "name": "Update Todo",
+        "path":"/data-list/update/:id"
+    }
+]

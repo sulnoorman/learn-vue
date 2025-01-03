@@ -1,0 +1,22 @@
+/* stylelint-disable liberty/use-logical-spec */
+/* stylelint-disable no-missing-end-of-source-newline */
+// Write your overrides
+.v-slide-group__container {
+  display: flex;
+  overflow: hidden;
+  flex: 1 1 auto;
+  border-start-end-radius: 12px;
+  border-start-start-radius: 12px;
+  contain: none !important;
+}
+
+.tabs-wrapper {
+  background: lightgrey;
+  border-start-end-radius: 12px;
+  border-start-start-radius: 12px;
+}
+
+.tab-item .v-btn__content {
+  height: 100% !important;
+  text-transform: none;
+}
